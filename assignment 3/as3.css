@@ -1,0 +1,129 @@
+	    body{
+		font-family: Arial;
+		background-color: 	#2F4F4F;
+		}
+		div{
+			border-radius: 20px;
+			font-weight: bold;
+			text-align: center;
+		}
+		#main {
+	           width: 82vh;
+	           height: 82vh;
+	           position: relative;
+	           margin: 9.1vh auto;
+              }
+
+
+	    .z{
+			border: 1px solid red;
+			height:60px;
+			width:60px;	
+            text-align: center;
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			float: left;
+			background-color: black;
+			color: white;
+		
+		}
+
+		#LA{
+			border: 1px solid black;
+			height:75px;
+			width:100px;
+			position: relative;
+			left:40px;
+			top: 40px;
+			text-align: center;
+			padding: 10px;
+			background-color:cyan;
+		}
+		.v{
+			border: 1px solid red;
+			height:60px;
+			width:60px;
+			display: block;
+            text-align: center;
+			position: relative;
+			top:60px;
+			left: 66vh;
+            background-color: black;
+            color: white;
+		}
+    .l{
+    	position: relative;
+    	display: inline-block;
+    	border: 1px solid red;
+		height:60px;
+	    width:60px;
+        float: left;
+	    text-align: center;
+	    background-color: black;
+	    color: white;
+    }
+    .al{
+    	height: 60px;
+    	width:60px;
+    	border:1px solid red;
+    	position: relative;
+    	top:-370px;  
+    	background-color: black;
+    	color: white;  	
+    }
+    #LB{
+    	border: 1px solid black;
+		height:75px;
+		width:100px;
+		position: relative;
+		left:1000px;
+		top:-700px;
+		text-align: center;
+		padding: 10px;
+		background-color:red;
+		vertical-align: center;
+    }
+    #A1{
+    	background-color:#4d79ff;
+    }
+    #A15{
+    	background-color: red;
+    }
+    #A28{
+    	background-color: #4d79ff;
+    	opacity: 0.5;
+    }
+    #A14{
+    	background-color: red;
+    	opacity:0.5;
+    }
+    #tip1{
+    	position: relative;
+    	display: none;
+    }
+    #tip2{
+    	position: relative;
+    	display: none;
+    }
+    #tip3{
+    	position: relative;
+    	display: none;
+    }
+	#center{
+			position: relative;
+			border:1px solid black;
+			top:-550px;
+			left: 600px;
+			width: 100px;
+			padding: 10px;
+			text-align: center;
+	}
+	#tip{
+		position: relative;
+		background-color: magenta;
+		top:-700px;
+		width:190px;
+		height:200px;
+		left:150px;
+	}

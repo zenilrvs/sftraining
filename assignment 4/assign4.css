@@ -1,0 +1,36 @@
+<style>
+  #B{
+  }
+  body{
+  	background-color: #673ab7;
+  	font-family: Arial, sans-serif;
+  	text-align: center;
+  }
+  h1{
+  	color:white;
+  }
+  #C{
+  	background-color: white;
+  	border-radius: 20px;
+  	position: absolute;
+  	padding: 20px;
+  	text-align: center;
+  	vertical-align: middle;
+  	width:300px;
+  	left:600px;
+  	top:100px;
+  	height: 350px;
+  }
+    #B{
+  	background-color:white;
+  	border-radius: 20px;
+  	position: absolute;
+  	padding: 20px;
+  	text-align: center;
+  	vertical-align: middle;
+  	width: 300px;
+  	left:200px;
+  	top:100px;
+  	height:350px;
+  }
+</style>
