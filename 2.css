@@ -1,0 +1,271 @@
+	@font-face {
+  font-family: museoslab700;
+  src: url('ms700.ttf');
+  }
+
+  @font-face {
+  font-family: museoslab300;
+  src: url('ms300.ttf');
+  }
+
+  body{
+		margin: 0;
+		background-color: #ccebff;
+			}
+	#aaa{
+		list-style-type: none;
+		background-color:#474747;
+		overflow: hidden;
+		}
+
+	li{
+		float:left;
+	}
+	li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    border-right: 1px solid #535353;
+    font-family: Arial ,sans-serif;
+    font-size: 15px;
+
+    }
+    li a:hover{
+    	background-color: #262626;
+    }
+   .aab{
+		float:right;
+		position: relative;
+    overflow: hidden;
+	}
+    .aab a {
+    color: white;
+    background-color: #262626;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    border-right: 2px solid #333333;
+    font-family: Arial ,sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    }
+ .aab a:hover{
+    	background-color: #666666;
+    }
+  .z{
+  	right: 250px;
+  	top: 33px;
+    position: absolute;
+  }
+  #boxa{
+  	background-color: #b3d9ff;
+  	background-image:url("cloud.png");
+    position: relative;
+    top:5px;
+    left:20%;
+    width:900px;
+    height: 480px;
+    border:1.5px solid white;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: bottom;
+  }
+  #boxb{
+    text-align: center;
+    position: absolute;
+    left:60px;
+  }
+  #ha{
+    color: #ce2654;;
+    font-size: 50px;
+    font-family:'museoslab700',sans-serif;
+    text-shadow: 2px 2px white;
+  }
+  #pa{
+    font-size:20px;
+    font-family: 'museoslab300', sans-serif;
+  }
+  #boxba{
+    text-decoration: none;
+    color: white;
+    text-orientation: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #33cccc;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    border:1px solid #29a3a3;
+    font-family: Helvetica, sans-serif;
+  }
+  #boxba :hover{
+    opacity: 0.8;
+  }
+  #boxbb{
+    text-decoration: none;
+    color: #3399ff;
+    text-orientation: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: Helvetica, sans-serif;
+  }
+  #boxbb :hover{
+    opacity: 0.7;
+  }
+  #rib{
+    position: absolute;
+    left:550px;
+    top:15px;
+  }
+  #boxc{
+    position: absolute;
+    top: 8px;
+    left:577px;
+    text-align: center;
+    width: 314px;
+    height: 20px;
+    padding-bottom: 40px;
+    background-color: #add133;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #7c9c1d;
+    font-family: Helvetica,Arial;
+    font-size: 20px;
+  }
+  #boxd{
+    background-color:rgb(240,240,240);
+    border: 1px solid #c3c4c4;
+    border-top-width: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 314px;
+    height: 365px;
+    position: relative;
+    left: 577px;
+    top:70px;
+  }
+  #social{
+    height: 60px;
+    border-bottom: 1.3px solid #c3c4c4;
+    top:10px;
+  }
+  #boxe{
+    padding-left: 15px;
+    font-family: Georgia;
+    font-size: 11px;
+  }
+  #box2{
+    background-color: white;
+    position: relative;
+    top:20px;
+    left:20%;
+    width:880px;
+    height: 600px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top:10px;
+    font-family: Arial;
+  }
+  #box2 h1{
+    color: #ce2654;
+    font: 25px "museoslab700","museoslab300",serif;
+  }
+
+  .box2a a{
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+  }
+  .box2a a:hover{
+    text-decoration: underline;
+  }
+  .box2b{
+    position: relative;
+    left: 20px;
+  }
+  .box2b a{
+    color: #4096e7;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .box2b a:hover{
+    text-decoration: none;
+    background-repeat: no-repeat;
+    baseline-shift: -400px;
+  }
+  .box2b img{
+    display: none;
+  }
+  .box2b a:hover img{
+    display: inline-block;
+  }
+  hr{
+    border-top: 1px solid #e5e5e5;
+    height: 0;
+    margin-top: 20px;
+  }
+  #box3{
+    position: relative;
+    left:20%;
+    top: 20px;
+    width:880px;
+    height: 300px;
+    padding-left: 30px;
+    font-family: Helvetica;
+    font-size: 11px;
+  }
+  .box3a{
+    display: inline-block;
+    width: 115px;
+    vertical-align: top;
+    padding-top: 20px;
+  }
+  .box3a h1 {
+    color: #5e838b;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 11px;
+  }
+  .box3a a {
+    color: #6e99a2;
+    text-decoration: none;
+  }
+  #box3b{
+    display: inline-block;
+    padding-top: 20px;
+    color: #5e838b;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 11px;
+  }
+  #feed{
+    transform: rotate(90deg);
+    text-align: center;
+    
+    width: 100px;
+    height: 30px;
+    background-color: #474747;
+    padding-top: 5px;
+    position: fixed;
+    left: -35px;
+    top: 350px;
+  }
+  #feed a{
+    font-family: Helvetica;
+    font-size: 13px;
+    color: #eee;
+    text-decoration: none;
+  }
